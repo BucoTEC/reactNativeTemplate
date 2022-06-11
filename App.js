@@ -1,11 +1,20 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, Button } from "react-native";
 
 export default function App() {
 	return (
 		<View style={styles.container}>
 			<Text style={styles.header}>Zdravo Riade</Text>
 			<StatusBar style="auto" />
+			<View
+				style={{
+					justifyContent: "flex-start",
+					marginTop: 1,
+				}}
+			>
+				<Text>hello from my new text</Text>
+			</View>
+			<Button title="helo" />
 		</View>
 	);
 }
