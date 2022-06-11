@@ -1,5 +1,5 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View, Button } from "react-native";
+import { StyleSheet, Text, View, Button, TextInput } from "react-native";
 
 export default function App() {
 	return (
@@ -12,8 +12,9 @@ export default function App() {
 					marginTop: 1,
 				}}
 			>
-				<Text>hello from my new text</Text>
+				<Text>hello from my new text eee</Text>
 			</View>
+			<TextInput style={{ margin: 30 }} placeholder="enter message ..." />
 			<Button title="helo" />
 		</View>
 	);
