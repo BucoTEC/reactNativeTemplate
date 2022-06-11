@@ -15,7 +15,12 @@ export default function App() {
 				<Text>hello from my new text eee</Text>
 			</View>
 			<TextInput style={{ margin: 30 }} placeholder="enter message ..." />
-			<Button title="helo" />
+			<Button
+				onPress={() => {
+					alert("You tapped the button!");
+				}}
+				title="helo"
+			/>
 		</View>
 	);
 }
