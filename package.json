@@ -4,7 +4,7 @@
 	"main": "node_modules/expo/AppEntry.js",
 	"scripts": {
 		"lint": "tsc --noEmit && eslint --ext .js,.jsx,.ts,.tsx ./",
-		"prettier:write": "npx prettier --write **/*.{js,jsx,ts,tsx,json} && npx prettier --write *.{js,jsx,ts,tsx,json}",
+		"prettier:write": "yarn pretty-quick",
 		"start": "expo start",
 		"android": "expo start --android",
 		"ios": "expo start --ios",
