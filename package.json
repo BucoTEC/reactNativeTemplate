@@ -34,8 +34,8 @@
 	},
 	"private": true,
 	"husky": {
-		"hooks": {
-			"pre-commit": "yarn lint"
-		}
-	}
+        "hooks": {
+        "pre-commit": "pretty-quick --staged && npm run lint"
+        }
+    }
 }
